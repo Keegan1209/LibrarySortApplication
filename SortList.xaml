@@ -1,0 +1,91 @@
+﻿<Window x:Class="LibrarySortApplication.SortList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibrarySortApplication"
+        mc:Ignorable="d"
+        Title="SortList" Height="650" Width="860"
+        Background="LightSeaGreen">
+    <Grid>
+
+        <ListBox x:Name="LB1" HorizontalAlignment="Left" Height="249" Margin="40,249,0,0" VerticalAlignment="Top" Width="265"
+                 MouseMove="LB1_MouseMove"
+                 AllowDrop="True" Drop="LB1_Drop">
+            <ListBoxItem x:Name="item1"  Content=""/>
+            <ListBoxItem x:Name="item2"  Content=""/>
+            <ListBoxItem x:Name="item3"  Content=""/>
+            <ListBoxItem x:Name="item4"  Content=""/>
+            <ListBoxItem x:Name="item5"  Content=""/>
+            <ListBoxItem x:Name="item6"  Content=""/>
+            <ListBoxItem x:Name="item7"  Content=""/>
+            <ListBoxItem x:Name="item8"  Content=""/>
+            <ListBoxItem x:Name="item9"  Content=""/>
+            <ListBoxItem x:Name="item10"  Content=""/>
+
+
+        </ListBox>
+        <ListBox x:Name="LB2" HorizontalAlignment="Left" Height="249" Margin="405,249,0,0" VerticalAlignment="Top" Width="265"
+                
+                 AllowDrop="True" Drop="LB2_Drop"
+                 MouseMove="LB2_MouseMove">
+
+
+
+
+
+
+        </ListBox>
+        <!--<Button Content="Button" HorizontalAlignment="Left" Margin="355,277,0,0" VerticalAlignment="Top" Width="75" Click="sortListBTN_Click" Height="38"/>-->
+        <Button Background="white" Foreground="Black" Content="Check" HorizontalAlignment="Left" Margin="700,249,0,0" VerticalAlignment="Top" Width="75" Click="checkList_BTN" Height="35"/>
+        <Button Content="sort" HorizontalAlignment="Left" Margin="700,303,0,0" VerticalAlignment="Top" Width="75" Click="sortListBTN_Click" Height="35" RenderTransformOrigin="0.467,1.571"/>
+        <TextBlock 
+            Text="REPLACING BOOKS"
+                Foreground="white"
+                FontSize="20"
+                FontWeight="Bold" HorizontalAlignment="Left" Margin="40,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Text="THIS GAME FOCUSES ON ORDERING THE CALL NUMBERS OF BOOKS IN THE LIBRARY. RANDOMLY GENERATED DEWEY DECIMAL INDEXES ARE CREATED IN THE UNSORTED LIST (LEFT) THE GOAL IS TO SORT THE LIST INTO ASCENDING ORDER BY DRAGGING THE ITEMS TO THE SORTED LIST (RIGHT). THE PROGRAM WILL CHECK IF THE LIST SORTED CORRECTLY IN THE SORTED LIST BLOCK.  SELECT 'CHECK' TO SEE IF LIST IS VALID AND SELECT 'SORT' TO AUTOMATICALLY SORT LIST "
+            Foreground="white"
+            FontSize="12"
+            FontWeight="Normal"
+            VerticalAlignment="Center"
+            FontFamily="Helvetica" 
+            TextWrapping="Wrap"
+            Margin="40,60,157,484" Height="75"/>
+        <TextBlock 
+            Text="UNSORTED LIST"
+            Foreground="white"
+            FontSize="20"
+            FontWeight="Bold" HorizontalAlignment="Left" Margin="40,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock 
+            Text="SORTED LIST"
+            Foreground="white"
+            FontSize="20"
+            FontWeight="Bold" HorizontalAlignment="Left" Margin="405,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Image Height="60"
+            Source="images/fast-forward.png"
+            Margin="325,273,457,286"
+            RenderOptions.BitmapScalingMode="Fant"
+                        />
+        <Image Height="60"
+            Source="images/sort-by-attributes.png"
+            Margin="325,355,457,204"
+            RenderOptions.BitmapScalingMode="Fant"
+                        />
+        
+            <Button Background="SpringGreen" Foreground="Blue" Content="START TIMER" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Click="Timer_BTN" Height="35" Canvas.Left="40" Canvas.Top="165" Margin="40,170,0,0"/>
+            <TextBlock 
+                Text="PLAY TIMED GAME"
+                Foreground="white"
+                FontSize="15"
+                FontWeight="Bold" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Canvas.Left="46" Canvas.Top="140" Margin="40,145,0,0"/>
+        <TextBlock 
+            x:Name="timerDisplay"
+                Text=""
+                Foreground="white"
+                FontSize="15"
+                FontWeight="Bold" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="206,175,0,0"/>
+
+
+    </Grid>
+</Window>

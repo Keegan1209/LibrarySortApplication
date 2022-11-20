@@ -1,0 +1,155 @@
+
+000 COMPUTER SCIENCES
+  000 Computer science
+    001 Knowledge
+    002 The book 
+    003 Systems
+    004 Data processing and computer science
+    005 Computer programming
+
+  080 QOUTATIONS
+    080 General collections
+    081 Collections in American English
+    082 Collections in English
+    083 Collections in other Germanic languages
+    084 Collections in French, Occitan, Catalan
+   085 Collections in Italian, Romanian, and related languages
+
+100 PHILOSOPHY AND PSYCHOLOGY
+  100 PHILOSOPHIES
+    101 Theory of philosophy
+    102 Miscellany
+    103 Dictionaries and encyclopaedias
+    104 Essays
+    105 Serial publications
+
+  150 PSYCHOLOGIES
+    150 Psychology
+     151 Intellect
+    152 Sensory perception
+    153 Conscious mental processes and intelligence
+    154 Subconscious and altered states and processes
+    155 Differential and developmental psychology
+
+ 
+200 RELIGIONS
+  200 RELIGIONS
+    201 Religious mythology 
+    202 Doctrines
+    203 Public worship and other practices
+    204 Religious experience, life, practice
+    205 Religious ethics
+
+  220 The Bible
+    221 Old Testament (Tanakh)
+    222 Historical books of Old Testament
+    223 Poetic books of Old Testament
+    224 Prophetic books of Old Testament
+    225 New Testament
+
+300 SOCIAL SCIENCE
+  300 Social sciences
+    301 Sociology and anthropology
+    302 Social interaction
+    303 Social processes
+    304 Factors affecting social behaviour
+    305 Groups of people
+
+  310 Statistics
+    310 Collections of general statistics
+    311 Theory and methods
+    312 Population
+    313 Special topics
+    314 General statistics of Europe
+    315 General statistics of Asia
+
+400 LANGUAGES
+  400 Language
+    401 Philosophy and theory
+    402 Miscellany
+    403 Dictionaries
+    404 Special topics of language
+    405 Serial publications
+
+  410 Linguistics
+    411 Writing 
+    412 Etymology 
+    413 Dictionaries 
+    414 Phonology 
+    415 Grammar 
+
+500 SCIENCES
+  500 Natural sciences and mathematics
+    501 Philosophy and theory
+    502 Miscellany
+    503 Dictionaries
+    505 Serial publications
+    506 Organizations and management
+
+  510 Mathematics
+    511 General principles of mathematics
+    512 Algebra
+    513 Arithmetic
+    514 Topology
+    515 Analysis
+
+600 TECHNOLOGY
+  600 Technology 
+    601 Philosophy and theory
+    602 Miscellany
+    603 Dictionaries
+    604 Technical drawing
+    605 Serial publications
+
+  610 Medicine and health
+    611 Human anatomy, cytology, histology
+    612 Human physiology
+    613 Personal health and safety
+    614 Forensic medicines
+    615 Pharmacology and therapeutics
+
+700 ARTS AND RECREATION 
+  700 The Arts
+    701 Philosophy and theory of fine and decorative arts
+    702 Miscellany of fine and decorative arts
+    703 Dictionaries
+    704 Special topics in fine and decorative arts
+    705 Serial publications of fine and decorative arts
+
+  720 Architecture
+    721 Architectural materials and structural elements
+    722 Architecture from earliest times to c. 300
+    723 Architecture from c. 300 to 1399
+    724 Architecture from 1400
+    725 Public structures
+
+
+
+800 LITERATURE
+  800 English Literature 
+    801 Philosophy and theory
+    802 Miscellany
+    803 Dictionaries
+    805 Serial publications
+
+  810 American Literature 
+    811 American poetry 
+    812 American drama 
+    813 American fiction 
+    814 American essays 
+    815 American speeches 
+
+900 HISTORY AND GEOGRAPHY
+  900 HISTORY 
+    901 Philosophy and theory of history
+    902 Miscellany of history
+    903 Dictionaries
+    904 Collected accounts of events
+    905 Serial publications of history
+
+  910 Geography and travel
+    911 Historical geography
+    912 Graphic representations 
+    913 Geography of and travel in the ancient world
+    914 Geography of and travel in Europe
+    915 Geography of and travel in Asia
